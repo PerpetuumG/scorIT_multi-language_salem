@@ -11,3 +11,4 @@ export const FLAGS = [
   { title: 'Russia', img: '/images/russia.webp' },
   { title: 'Ukraine', img: '/images/ukraine.webp' },
 ];
+

@@ -5,7 +5,7 @@ import CustomButton from '@/app/utils/CustomButton';
 
 const HomeHero = () => {
   return (
-    <section className={'min-h-[100vh] md:-mt-[80px] w-full'}>
+    <section className={'__hero-bg min-h-[100vh] md:-mt-[80px] w-full'}>
       <Container>
         <div
           className={
@@ -37,15 +37,14 @@ const HomeHero = () => {
               </h1>
 
               <p className={'mb-4'}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet, dicta dignissimos
-                dolores eligendi illo impedit ipsum molestiae, neque nihil non odit praesentium
-                provident quaerat quidem similique sint vel voluptatum? Dignissimos harum minus
-                rerum sed, sint soluta veniam? Dicta eaque error fuga hic laboriosam magnam minima
-                nisi nulla officia quibusdam.
+                ScorIT is more than just an app; its your personalized daily expense companion.
+                With ScorIT, managing your expenses becomes effortless and insightful. Track your
+                daily costs, incomes, and expenditures in a simple, user-friendly interface designed
+                to give you comprehensive financial insights.
               </p>
 
               <div className={'mt-6'}>
-                <CustomButton title={'Read More...'} href={'/'} />
+                <CustomButton title={'Read More...'} href={'#'} />
               </div>
             </div>
           </div>
