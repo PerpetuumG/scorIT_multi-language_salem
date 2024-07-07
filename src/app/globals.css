@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.__hero-bg {
-  background-image: url('../../public/images/pink-header-bg.png');
-  background-position: top right;
-  background-repeat: no-repeat;
-}

@@ -1,7 +1,7 @@
-import Container from '@/app/layouts/Container';
+import Container from '../layouts/Container';
 import Image from 'next/image';
-import mobileImg from '../../../public/images/01.webp';
-import CustomButton from '@/app/utils/CustomButton';
+import mobileImg from '../../../../public/images/01.webp';
+import CustomButton from '../utils/CustomButton';
 
 const HomeHero = () => {
   return (

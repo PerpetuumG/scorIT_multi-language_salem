@@ -1,0 +1,9 @@
+@import '../../../node_modules/tailwindcss/base.css';
+@import '../../../node_modules/tailwindcss/components.css';
+@import '../../../node_modules/tailwindcss/utilities.css';
+
+.__hero-bg {
+  background-image: url('../../../public/images/pink-header-bg.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+}

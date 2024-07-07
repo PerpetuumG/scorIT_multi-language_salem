@@ -1,8 +1,8 @@
 'use client';
 
-import Container from '@/app/layouts/Container';
+import Container from './Container';
 import Link from 'next/link';
-import { MENU, FLAGS } from '@/lib/constants';
+import { MENU, FLAGS } from '../../../../lib/constants';
 import Image from 'next/image';
 import { FaBars } from 'react-icons/fa';
 import { IoMdClose } from 'react-icons/io';

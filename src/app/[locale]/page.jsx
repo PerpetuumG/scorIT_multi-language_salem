@@ -1,5 +1,7 @@
-import Header from '@/app/layouts/Header';
-import HomeHero from '@/app/components/HomeHero';
+'use client';
+
+import Header from './layouts/Header';
+import HomeHero from './components/HomeHero';
 
 export default function Home() {
   return (
