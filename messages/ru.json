@@ -11,11 +11,11 @@
   },
   "HeroText": {
     "newTag": "Новый",
-    "bestapp": "Best App",
-    "appTitle": "DummyScorIT",
-    "welcomeMessage": "Welcome to DummyApp",
-    "heroDescription": "DummyDescription: This is a dummy app description. It's more than just a dummy app; it's your personalized dummy daily expense companion. With DummyApp, managing your dummy expenses becomes effortless and insightful. Track your dummy daily costs, incomes, and expenditures in a simple, user-friendly interface designed to give you comprehensive dummy financial insights.",
-    "readMoreButton": "DummyReadMoreButton"
+    "bestapp": "Лучшее приложение",
+    "appTitle": "ScorIT",
+    "welcomeMessage": "Welcome to",
+    "heroDescription": "This is a dummy app description. It's more than just a dummy app; it's your personalized dummy daily expense companion. With DummyApp, managing your dummy expenses becomes effortless and insightful. Track your dummy daily costs, incomes, and expenditures in a simple, user-friendly interface designed to give you comprehensive dummy financial insights.",
+    "readMoreButton": "ReadMoreButton"
   },
   "AboutUs": {
     "sectionId": "о",

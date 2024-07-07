@@ -2,10 +2,13 @@ import Container from '../layouts/Container';
 import Image from 'next/image';
 import mobileImg from '../../../../public/images/01.webp';
 import CustomButton from '../utils/CustomButton';
+import { useTranslations } from 'next-intl';
 
 const HomeHero = () => {
+  const t = useTranslations('HeroText');
+
   return (
-    <section className={'__hero-bg min-h-[100vh] md:-mt-[80px] w-full'}>
+    <section id={'home'} className={'__hero-bg min-h-[100vh] md:-mt-[80px] w-full'}>
       <Container>
         <div
           className={
@@ -21,10 +24,10 @@ const HomeHero = () => {
                     'text-black bg-sky-600 rounded-full font-semibold py-1 w-[80px] text-center'
                   }
                 >
-                  New
+                  {t('newTag')}
                 </p>
                 <p className={'text-black rounded-full py-1 px-2 w-[160px] text-center'}>
-                  Best Mobile App
+                  {t('bestapp')}
                 </p>
               </div>
             </div>
@@ -32,19 +35,14 @@ const HomeHero = () => {
             {/*MAIN TEXT OF HERO SECTION*/}
             <div>
               <h1 className={'mb-5 text-4xl md:text-6xl font-semibold'}>
-                Welcome To <br />
-                <span className={'md:text-sky-600 text-black font-bold'}>ScorIT</span>
+                {t('welcomeMessage')} <br />
+                <span className={'md:text-sky-600 text-black font-bold'}>{t('appTitle')}</span>
               </h1>
 
-              <p className={'mb-4'}>
-                ScorIT is more than just an app; its your personalized daily expense companion.
-                With ScorIT, managing your expenses becomes effortless and insightful. Track your
-                daily costs, incomes, and expenditures in a simple, user-friendly interface designed
-                to give you comprehensive financial insights.
-              </p>
+              <p className={'mb-4'}>{t('heroDescription')}</p>
 
               <div className={'mt-6'}>
-                <CustomButton title={'Read More...'} href={'#'} />
+                <CustomButton title={t('readMoreButton')} href={'#'} />
               </div>
             </div>
           </div>

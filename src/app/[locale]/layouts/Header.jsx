@@ -7,9 +7,17 @@ import Image from 'next/image';
 import { FaBars } from 'react-icons/fa';
 import { IoMdClose } from 'react-icons/io';
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 const Header = () => {
+  const t = useTranslations('Header');
+  const menu = useTranslations('Menu');
+
   const [showHideMenu, setShowHideMenu] = useState(false);
+
+  const handleLanguage = lang => {
+    window.location.replace(`/${lang}`, true);
+  };
 
   return (
     <header className={'min-h-[60px] md:leading-[60px] z-10 relative'}>
@@ -18,7 +26,7 @@ const Header = () => {
           {/*LOGO*/}
           <div className={'flex justify-between items-center py-3 md:py-0'}>
             <Link href={'/'} className={'text-2xl font-bold text-sky-600'}>
-              ScorIt
+              {t('logo')}
             </Link>
 
             {showHideMenu ? (
@@ -42,9 +50,11 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     href={item.link}
-                    className={'px-0 md:px-2 md:py-0 py-2 md:text-white md:hover:text-slate-100 duration-100 leading-[1rem] md:leading-none'}
+                    className={
+                      'px-0 md:px-2 md:py-0 py-2 md:text-white md:hover:text-slate-100 duration-100 leading-[1rem] md:leading-none'
+                    }
                   >
-                    {item.title}
+                    {menu(item.title)}
                   </Link>
                 </li>
               ))}
@@ -57,7 +67,7 @@ const Header = () => {
                     'py-[10px] md:mx-3 px-5 shadow-md rounded-xl md:bg-white bg-sky-600 text-black hover:text-white hover:bg-sky-600 font-semibold uppercase'
                   }
                 >
-                  Download
+                  {t('downbtn')}
                 </Link>
               </li>
 
@@ -71,9 +81,7 @@ const Header = () => {
                     width={40}
                     height={40}
                     className={' cursor-pointer'}
-                    onClick={() => {
-                      console.log('hello');
-                    }}
+                    onClick={() => handleLanguage(item.lang)}
                   />
                 ))}
               </div>

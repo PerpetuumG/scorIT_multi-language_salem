@@ -5,23 +5,23 @@
   },
   "Menu": {
     "home": "Home",
-    "about": "AboutUs",
+    "about": "About Us",
     "features": "Features",
     "screenshots": "Screenshots"
   },
   "HeroText": {
     "newTag": "New",
     "bestapp": "Best App",
-    "appTitle": "DummyScorIT",
-    "welcomeMessage": "Welcome to DummyApp",
-    "heroDescription": "DummyDescription: This is a dummy app description. It's more than just a dummy app; it's your personalized dummy daily expense companion. With DummyApp, managing your dummy expenses becomes effortless and insightful. Track your dummy daily costs, incomes, and expenditures in a simple, user-friendly interface designed to give you comprehensive dummy financial insights.",
-    "readMoreButton": "DummyReadMoreButton"
+    "appTitle": "ScorIT",
+    "welcomeMessage": "Welcome to",
+    "heroDescription": "This is a dummy app description. It's more than just a dummy app; it's your personalized dummy daily expense companion. With DummyApp, managing your dummy expenses becomes effortless and insightful. Track your dummy daily costs, incomes, and expenditures in a simple, user-friendly interface designed to give you comprehensive dummy financial insights.",
+    "readMoreButton": "ReadMore"
   },
   "AboutUs": {
     "sectionId": "about",
-    "sectionTitle": "DummyAbout DummyScorIT",
-    "aboutContentStrong": "DummyScorIT",
-    "aboutContent": "DummyScorIT is a dummy app for daily expenses, a simple personal record app that allows users to input their own dummy daily expenses, costs, and incomes aligned with a category, recipient, date, and optional note to get a dummy beautiful chart showing the dummy expenses and the incomes in a smart way. A user can query the chart based on the category, recipient, and income, and also can restrict the period to be within a month, quarter, 6 months, a year, or all the time. A user can add, edit, and delete the dummy categories and recipients. A user gets notified when the total of dummy expenses is about to reach the total of income records. A user can show, edit, and delete any dummy record. Registration is super easy; a user can register using dummy email, Google, Apple, and Facebook."
+    "sectionTitle": "About ScorIT",
+    "aboutContentStrong": "ScorIT",
+    "aboutContent": "ScorIT is a dummy app for daily expenses, a simple personal record app that allows users to input their own dummy daily expenses, costs, and incomes aligned with a category, recipient, date, and optional note to get a dummy beautiful chart showing the dummy expenses and the incomes in a smart way. A user can query the chart based on the category, recipient, and income, and also can restrict the period to be within a month, quarter, 6 months, a year, or all the time. A user can add, edit, and delete the dummy categories and recipients. A user gets notified when the total of dummy expenses is about to reach the total of income records. A user can show, edit, and delete any dummy record. Registration is super easy; a user can register using dummy email, Google, Apple, and Facebook."
   },
   "Features": {
     "sectionId": "features",
