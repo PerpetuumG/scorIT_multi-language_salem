@@ -6,6 +6,7 @@ import AboutUS from '@/app/[locale]/components/AboutUS';
 import Features from '@/app/[locale]/components/Features';
 import MarketingDesc from '@/app/[locale]/components/MarketingDesc';
 import WorkApp from '@/app/[locale]/components/WorkApp';
+import AppScreenshots from "@/app/[locale]/components/AppScreenshots";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Features />
       <MarketingDesc />
       <WorkApp />
+      <AppScreenshots/>
     </>
   );
 }
