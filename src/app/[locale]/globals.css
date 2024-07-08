@@ -7,3 +7,9 @@
   background-position: top right;
   background-repeat: no-repeat;
 }
+
+.__marketing_desc {
+  background-image: url('../../../public/images/easy-m-bg.png');
+  background-position: center left;
+  background-repeat: no-repeat;
+}
