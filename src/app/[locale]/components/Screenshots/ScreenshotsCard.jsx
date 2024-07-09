@@ -27,7 +27,7 @@ const ScreenshotsCard = () => {
         autoplay={{ delay: 2500, disableOnInteraction: false }}
       >
         {SLIDES.map(item => (
-          <SwiperSlide id={item.id}>
+          <SwiperSlide key={item.id}>
             <Image
               src={item.img}
               alt={item.alt}
